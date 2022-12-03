@@ -1,0 +1,29 @@
+---
+title: "Vignette for finalprojectHK"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Vignette for finalprojectHK}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(finalprojectHK)
+```
+
+This is the huber function.  
+```{r}
+huber(c(1,2,3))
+```
+
+This is the function for error rate.  
+```{r}
+error(0.05, 5, 100, 20)
+```

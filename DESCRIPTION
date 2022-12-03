@@ -4,7 +4,7 @@ Title: Code function summary for the final project
 Version: 1.0.0
 Author: Hyunsoo Kim
 Maintainer: Hyunsoo Kim <maristb1125@naver.com>
-Description:This package is a summary of code function used in assignment. 
+Description: This package is a summary of code function used in assignment. 
     Consisted of Huber function, 
     error type I error rate control of Wald, Score, and Likelihood ratio test,
     statistical power of Wald, Score, and Likelihood ratio test,
@@ -14,5 +14,7 @@ Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.2
-
-
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr

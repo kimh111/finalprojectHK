@@ -24,4 +24,7 @@ This is a basic example which shows you how to solve a common problem:
 library(finalprojectHK)
 ## basic example code
 ```
-
+huber(c(1,2,3))
+error(0.05, 5, 100, 20)
+power(0.05, 4, 5, 100, 20)
+rounding(2.55, 1)
