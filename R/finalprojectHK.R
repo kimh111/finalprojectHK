@@ -19,7 +19,6 @@ rounding <- function(x, d) {
 #' @title Huber function
 #' @description \code{huber} output Huber function value from x axis value
 #'
-#' @importFrom base Vectorize
 #' @param x numeric value of x axis
 #' @export
 #' @examples
@@ -45,8 +44,6 @@ huber <- Vectorize(huber)
 #' @title type I error rate control
 #' @description \code{error} output type I error rate control of Wald, Score, and Likelihood ratio test for Poisson distribution with specified sample size with bootstrapping method
 #'
-#' @importFrom base mean
-#' @importFrom Rcpp pchisq
 #' @param alpha Nominal type I error rate α
 #' @param lambda0 λ0 value in Poisson distribution
 #' @param B Number of repeats
@@ -104,8 +101,6 @@ error <- function(alpha,lambda0,B,n){
 #' @title Statistical power of Wald, Score, and Likelihood ratio test in specified sample size
 #' @description \code{power} Output statistical power of Wald, Score, and Likelihood ratio test for Poisson distribution with specified sample size with bootstrapping method
 #'
-#' @importFrom base mean
-#' @importFrom Rcpp pchisq
 #' @param alpha Nominal type I error rate α
 #' @param lambda0 λ0 value in Poisson distribution
 #' @param lambda1 λ1 value in Poisson distribution
