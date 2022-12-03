@@ -19,12 +19,25 @@ knitr::opts_chunk$set(
 library(finalprojectHK)
 ```
 
-This is the huber function.  
+This is the replicated huber function for f(x)={x^2 if |x|≤1 and 2|x|−1 if |x|>1. We can see further details in below link. https://en.wikipedia.org/wiki/Huber_loss: I have vectorized x values so, It can produce vectorized output of huber function. 
+It can be utilized for plotting graph using plot() function. 
 ```{r}
-huber(c(1,2,3))
+huber(c(1,2,3)) #run example of vector x value of 1,2, and 3 
 ```
 
-This is the function for error rate.  
+This is the function for outputting actual type I error rate of Wald test, score test and likelihood ratio test with parameter alpha, lambda0, number of bootstrapping resampling, and with number of sample size in Poisson distribution. 
 ```{r}
-error(0.05, 5, 100, 20)
+error(0.05, 5, 1000, 20) #run example of alpha=0.05, lambda0 = 5, number of bootstrapping resampling=1000, and n=20. 
 ```
+
+This is the function for outputting statistical power of Wald test, score test and likelihood ratio test with parameter alpha, lambda0, lambda1 number of bootstrapping resampling, and with number of sample size in Poisson distribution. There is calculation for Wald test, score test and likelihood ratio test. 
+```{r}
+power(0.05, 4, 5, 1000, 20) #run example of alpha=0.05, lambda0 = 4, lambda1 =5 number of bootstrapping resampling=1000, and n=20. 
+```
+Finally this is the function for rounding into target decimal point. Usual round function in r round 2.55 to one decimal point for example to 2.5. To output 2.55 round to one decimal point to 2.6 is as below. 
+```{r}
+rounding(2.55, 1) #run example of 2.55 rounding to one decimal point. 
+```
+
+
+
