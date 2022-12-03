@@ -1,6 +1,7 @@
 ---
 title: "Vignette for finalprojectHK"
 output: rmarkdown::html_vignette
+author: Hyunsoo Kim
 vignette: >
   %\VignetteIndexEntry{Vignette for finalprojectHK}
   %\VignetteEngine{knitr::rmarkdown}
