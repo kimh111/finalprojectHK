@@ -1,11 +1,14 @@
 Package: finalprojectHK
 Type: Package
-Title: What the Package Does (Title Case)
-Version: 0.0.1
+Title: Code function summary for the final project 
+Version: 1.0.0
 Author: Hyunsoo Kim
 Maintainer: Hyunsoo Kim <maristb1125@naver.com>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
+Description:This package is a summary of code function used in assignment. 
+    Consisted of Huber function, 
+    error type I error rate control of Wald, Score, and Likelihood ratio test,
+    statistical power of Wald, Score, and Likelihood ratio test,
+    and the rounding function. 
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true

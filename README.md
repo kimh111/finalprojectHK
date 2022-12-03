@@ -4,7 +4,8 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of finalprojectHK is to ...
+The goal of finalprojectHK is to summarize the code function used in Assignment from HW1 to HW6. 
+There are additional function, rounding for round to target decimal point (e.g. 0.5 to 1). 
 
 ## Installation
 
